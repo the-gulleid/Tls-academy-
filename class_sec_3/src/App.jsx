@@ -6,6 +6,8 @@ import viteLogo from './assets/vite.svg'
 import Login from './login.jsx'
 import  Side from './side.jsx'
 import Name from './username.jsx';
+import Student_name from './student_name.jsx';
+import Hi from './cos.jsx'
 
 
 function App() {
@@ -13,11 +15,14 @@ function App() {
 
   return (
     <>
-        <Login/>
-        <Side username ="gulled"/>
-        <input type={"text"} value={username} onChange={(e)=>{setusername(e.target.value)}}/>
-        <h1>hello {username} </h1>
-        <Name/>
+        {/*<Login/>*/}
+        {/*<Side username ="gulled"/>*/}
+        {/*<input type={"text"} value={username} onChange={(e)=>{setusername(e.target.value)}}/>*/}
+        {/*<h1>hello {username} </h1>*/}
+        {/*<Name/>*/}
+        {/*<Register/>*/}
+        {/*<Student_name/>*/}
+       <Hi/>
 
     </>
   )
